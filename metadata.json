@@ -1,7 +1,7 @@
 {
-	"name":"Mikkeli",
-	"thumbnail":"mikkeli.png",
-	"screenshot":"mikkeli.png",
+	"name":"Shinjuku",
+	"thumbnail":"shinjuku.png",
+	"screenshot":"shinjuku.png",
     "tags": { "en": ["business", "clean", "corporate"] },
     "pageTypes":["home"],
     "templateType":"standard",
@@ -10,7 +10,7 @@
         "Swatch 1": {
             "color1":"#ffffff",
             "color2":"#d0d2c8",
-            "color3":"#6abcdc",
+            "color3":"#DB4B4B",
             "color4":"#282828",
             "color5":"#646464",
             "color6":"#646464",
@@ -58,9 +58,9 @@
         "images/slideshow/feature-slider.jpg"
     ],
     "fontSwatch": {
-       "title": "Merriweather / Source Sans Pro / Cabin",
+       "title": "Lato / Droid Sans",
         "font1": {
-            "font-family": "\"Merriweather\", Georgia, serif",
+            "font-family": "\"Lato\", Geneva, Tahoma, sans-serif",
             "font-size": "32px",
             "font-weight": "700",
             "line-height": "inherit",
@@ -68,7 +68,7 @@
             "letter-spacing": "inherit"
         },
         "font2": {
-            "font-family": "\"Merriweather\", Georgia, serif",
+            "font-family": "\"Lato\", Geneva, Tahoma, sans-serif",
             "font-size": "26px",
             "font-weight": "700",
             "line-height": "32px",
@@ -76,7 +76,7 @@
             "letter-spacing": "inherit"
         },
         "font3": {
-            "font-family": "\"Merriweather\", Georgia, serif",
+            "font-family": "\"Lato\", Geneva, Tahoma, sans-serif",
             "font-size": "17px",
             "font-weight": "600",
             "line-height": "25px",
@@ -121,7 +121,7 @@
             "background-color-hover": "@color-swatch1"
         },
         "font8": {
-            "font-family": "\"Merriweather\", Georgia, serif",
+            "font-family": "\"Lato\", Geneva, Tahoma, sans-serif",
             "font-size": "30px",
             "font-weight": "700",
             "line-height": "36px",
@@ -137,7 +137,7 @@
             "letter-spacing": "inherit"
         },
         "font10": {
-            "font-family": "\"Merriweather\", Georgia, serif",
+            "font-family": "\"Lato\", Geneva, Tahoma, sans-serif",
             "font-size": "24px",
             "font-weight": "inherit",
             "line-height": "32px",
