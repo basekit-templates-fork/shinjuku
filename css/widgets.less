@@ -71,7 +71,8 @@ textarea,
 .canvas .widget.profile form,
 .bottom-profile .widget.profile form,
 .delivery,
-.fonectacontactform {
+.fonectacontactform,
+.advancedcontactform {
 	padding: 30px 30px 50px;
 	margin: 0 0 20px;
 	border: 1px solid @color-swatch2;
@@ -121,6 +122,35 @@ textarea,
 	}
 }
 
+// Advanced Contact Form
+
+.advancedcontactform {
+    .select-wrap {
+        margin: 10px 0 0px;
+        display: inline-block;
+    }
+    .option-list {
+        margin: 0px 0 10px;
+    }
+    label {
+        width: 100%;
+        display: block;
+    }
+    select {
+    	display: block;
+		width: auto;
+    	height: 35px;
+    	margin-bottom: 12px;
+        padding: 8px 33px 8px 8px;
+        border: 1px solid darken(@color-swatch1,10%);
+        background-color: darken(@color-swatch1,4%);
+        color: @color-swatch5;
+        cursor: pointer;
+        min-width: 20%;
+    }
+}
+
+
 // -----------------------------
 // #Buttons
 // -----------------------------
@@ -148,7 +178,8 @@ button.btn,
 .blog-post-more-link a,
 .ecombasket-checkout-link,
 .widget.ecomcheckout .checkout-order-button,
-.blog-list-footer a {
+.blog-list-footer a,
+.advancedcontactform button {
 	padding: 12px 25px;
 	background-color: @color-swatch3;
 	border: none;
