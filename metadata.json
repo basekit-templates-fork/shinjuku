@@ -1,5 +1,6 @@
 {
 	"name":"Shinjuku",
+	"versionTenCompatible": 1,
 	"thumbnail":"shinjuku.png",
 	"screenshot":"shinjuku-screenshot.jpg",
     "tags": { "en": ["business", "clean", "corporate"] },
