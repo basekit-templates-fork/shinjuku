@@ -27,21 +27,22 @@
   overflow: inherit;
 }
 
-.template-header.stuckMenu .wrapper {
-    .company-info {
-        margin-left: 5%;
-    }
-    .nav {
-        margin-right: 5%;
-    }
-    @media @mobile {
-       .pull {
-            margin-right: 5%;
-       }
+.template-header {
+    margin-bottom: 0;
+}
+
+.template-header, .template-footer {
+    .wrapper {
+        margin: 0 5%;
+        width: 90%;
     }
 }
 
-
+&.edit {
+    .stuckMenu.isStuck {
+       width: ~"calc(100% - 200px)";
+    }
+}
 
 // Migration styles
 // -----------------------------
@@ -50,9 +51,9 @@
 // Replace with corresponding template values
 @container-width: 90%;
 
-@spacing__first--desktop: 0;
+@spacing__first--desktop: 60px;
 @spacing__first--tablet:  30px;
-@spacing__first--mobile:  0;
+@spacing__first--mobile:  30px;
 
 @spacing--other: 30px;
 
